@@ -89,3 +89,23 @@ function eBissexto(){
 }
 
 function 
+
+let semaforo = "amarelo"
+switch (semaforo) {
+    case "verde":
+        console.log("Siga");
+        break;
+
+    case "amarelo":
+        console.log("Prossiga com cuidado");
+        break;    
+
+    case "vermelho":
+        console.log("Pare");
+        break;
+
+    default: // igual ao estatuto Else, caso nenhuma das opções se aplicarem
+        console.log("Semaforo com defeito");
+        break;
+}
+
